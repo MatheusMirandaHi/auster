@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    
+</head>
+
+<body>
+
+  
+  <nav class="bg-body-tertiary border-bottom">
+    <div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item"><a href="" class="nav-link link-body-emphasis px-1 small-text active" aria-current="page">Junte-se a nós |</a></li>
+        <li class="nav-item"><a href="ajuda.html" class="nav-link link-body-emphasis px-1 small-text">Ajuda |</a></li>
+        <li class="nav-item"><a href="FAQs.html" class="nav-link link-body-emphasis px-1 small-text">FAQs |</a></li>
+        <li class="nav-item"><a href="" class="nav-link link-body-emphasis px-2 small-text">Sobre Nós</a></li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item"><a href="../HomePage/Empresas/loginempresa/loginempresa.html" class="nav-link link-body-emphasis px-1 small-text" >Meu Restaurante |</a></li>
+        <li class="nav-item"><a href="../HomePage/Empresas/Price/price.html" class="nav-link link-body-emphasis px-1 small-text">Planos</a></li>
+      </ul>
+    </div>
+    
+  </nav>
+
+  
+  
+    <header class="navs">
+  
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="home.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img id="logo" src="img/logo1.png" alt="logo">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a id="nav-a" href="home.html" class="nav-link px-2 text-secondary" >Home</a></li>
+              <li><a id="nav-a" href="./Restaurantes/Restaurantes.html" class="nav-link px-2 text-white">Parceiros</a></li>
+              <li><a id="nav-a" href="./Reserva/reserva.html" class="nav-link px-2  text-white" >Restaurantes</a></li>
+
+              <li><a  href="Reserva/RestaurantPage/resultados.html" id="geolocation-link" class="nav-link px-2 text-white">Encontrar Reservas</a></li>              
+              <li><a id="nav-a" target="_blank" href="../HomePage/Empresas/empresa.html" class="nav-link px-2 text-white">Sou uma Empresa</a></li>
+            </ul>
+  
+  
+            
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input id="search-none" type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."color="text-white"  aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <a href="login1/login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+              <a href="login1/sign.html"><button type="button" class="btn btn" style="background-color: teal;">Sign-up</button></a>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+
+      <main>
+      
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="video-background">
+              <video autoplay loop muted src="home-img/456578_Bangkok_Drone_3840x2160.mp4" type="video/mp4" width="100%"></video>
+          </div>
+          
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="container">
+                      <div class="carousel-caption text-start">
+                          <h1 style="color: white;">Reservar Agora.</h1>
+                          <p style="color: white;" class="opacity-75">Com a Auster sua reserva fica pronta na hora.</p>
+                          <p><a style="background-color: teal;" class="btn btn-lg btn" href="Reserva/reserva.html">Procurar por Reservas</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="container">
+                      <div class="carousel-caption">
+                          <h1 style="color: white;">Abrir meu Negócio</h1>
+                          <p style="color: white;">Juntos podemos aplicar e gerenciar nossas vendas.</p>
+                          <p><a style="background-color: teal;" class="btn btn-lg btn-primary" href="Empresas/empresa.html">Saiba Mais</a></p>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="container">
+                      <div class="carousel-caption text-end">
+                          <h1 style="color: white;">AUSTER +</h1>
+                          <p style="color: white;">Assine o Auster + e fique no comando total do seu restaurante.</p>
+                          <p><a style="background-color: teal;" class="btn btn-lg btn-primary" href="Empresas/Price/price.html">Assine</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span  class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      
+      
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalcookies" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+            <img src="img/logo1.png" width="55px;">
+              <h1 class="modal-title fs-5" id="exampleModalLabel" style="padding-left: 15px;">Definições de Cookies</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p>Usamos cookies para melhorar sua experiência em nosso site. Os cookies são pequenos arquivos de texto que são armazenados em seu dispositivo quando você visita um site. Eles ajudam o site a lembrar suas ações e preferências (como login, idioma e outras definições) ao longo do tempo, para que você não precise redefini-las sempre que retornar ao site ou navegar entre páginas.</p>
+              <p>Você pode ativar ou desativar o uso de cookies através do botão abaixo:</p>
+              <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="cookieToggle" checked style="background-color: teal;">
+                  <label class="form-check-label" for="cookieToggle">Ativar Cookies</label>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="save-cookies-btn" style="background-color: teal;">Salvar Alterações</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div id="cookie-container">
+  <div class="cookie-card">
+      <div class="cookie-description">
+          <span class="fw-bold">🍪 Notificações de Cookies</span>
+          <p class="mb-0">Usamos cookies para garantir que oferecemos a melhor experiência em nosso site. <a href="../Politica/austerplus-politica.html" target="_blank">Leia a política de cookies</a>.</p>
+      </div>
+      <div class="cookie-actions">
+          <button class="btn btn-outline-secondary" id="manage-btn" data-bs-toggle="modal" data-bs-target="#exampleModalcookies">Definições de cookies</button>
+          <button class="btn btn-primary" id="accept-btn" style="background-color: teal;">Aceitar todos os cookies</button>
+      </div>
+  </div>
+</div>
+ 
+
+
+
+      <section class="white-section">
+
+        <div class="logos__marquee">
+          <div class="marquee__logos">
+            <img src="img1/0015A0000260prsQAA1703702899360.png" width="100px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWH4F.png" width="100px" loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWI0H.jpg" width="100px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWKR8.png" width="100px"  loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWLCC.png" width="100px"  width="100px"loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWN6C.png" width="80px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/ATEA-2J1WE1.jpg" width="100px"  loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/ATEA-I6TFE.png"  width="80px" loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/Coco_Bambu_Restaurante.png" width="80px" loading="eager" alt="" class="intro-logos_logo">
+          </div>
+          <div class="marquee__logos" aria-hidden="true">
+            <img src="img1/0015A0000260prsQAA1703702899360.png" width="100px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWH4F.png" width="100px" loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWI0H.jpg" width="100px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWKR8.png" width="100px"  loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWLCC.png" width="100px"  width="100px"loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/AJNA-3OWN6C.png" width="80px"  loading="eager" alt="" class="intro-logos_logo">
+            <img src="img1/ATEA-2J1WE1.jpg" width="100px"  loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/ATEA-I6TFE.png"  width="80px" loading="lazy" alt="" class="intro-logos_logo">
+            <img src="img1/Coco_Bambu_Restaurante.png" width="80px" loading="eager" alt="" class="intro-logos_logo">
+          </div>
+        </div>
+      
+    
+    
+      </section> 
+
+
+
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom"></h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('home-img/cidade-de-sao-paulo.jpg'); background-size: cover; ">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Escolha o Local</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="img/logo1.png" a width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small style="color: white; background-color: black; padding: 10px; border-radius: 10px;">São Paulo</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('home-img/depositphotos_52318349-stock-photo-dining-out.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Encontre o Restaurante</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="img/logo1.png" a width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small style="color: white; background-color: black; padding: 10px; border-radius: 10px;">São Paulo</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('home-img/decoracao-de-numero-de-mesa-de-casamento_23-2149433836.jpg'); background-size: cover;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reserve</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img src="img/logo1.png" a width="32" height="32" class="rounded-circle border border-white">
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small style="color: white; background-color: black; padding: 10px; border-radius: 10px;">São Paulo</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    
+
+        <div class="container marketing">
+      
+
+
+      
+          <hr class="featurette-divider1">
+
+      
+          <div class="row featurette" style="padding-top: 20px;">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Descubra e Reserve em Restaurantes com Facilidade</h2><br>
+              <p style="text-align: justify;" class="lead">No Auster, você tem acesso a uma ampla variedade de restaurantes renomados e oferece a facilidade de fazer reservas a qualquer momento. Nosso site foi desenvolvido para conectar você rapidamente com estabelecimentos que atendem a todos os gostos e preferências, garantindo uma experiência gastronômica sem complicações. Explore menus, verifique disponibilidade e reserve sua mesa com apenas alguns cliques, aproveitando a conveniência e eficiência que você merece.</p>
+            </div>
+            <div class="col-md-5">
+              <video id="video1" autoplay loop muted  src="img/find.mp4" type="video/mp4" width="500" height="500" ></video>
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Restaurantes de Excelência e Reputação Reconhecida</h2><br>
+              <p style="text-align: justify;" class="lead">No Auster, selecionamos cuidadosamente apenas os restaurantes com excelente reputação e reconhecimento no mercado. Cada estabelecimento listado em nosso site é conhecido por sua qualidade, serviço e experiência gastronômica incomparável. Ao escolher um restaurante através do Auster, você pode ter certeza de que está optando por um local confiável e renomado, onde cada refeição é uma celebração.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <video id="" autoplay loop muted src="img/reservas.mp4" type="video/mp4" width="500" height="500" ></video>
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading fw-normal lh-1">Aumente a Visibilidade do Seu Restaurante com Auster+</h2><br>
+              <p style="text-align: justify;" class="lead">Se você é proprietário de um restaurante, o Auster+ é a solução ideal para aumentar a sua visibilidade e atrair mais clientes. Com uma assinatura mensal ou anual, você pode cadastrar seu restaurante em nosso site e aproveitar um dashboard personalizado que oferece análises detalhadas e ferramentas de gestão para otimizar suas reservas e seu desempenho. Torne-se parte da nossa rede e alcance novos patamares no setor gastronômico.</p>
+            </div>
+            <div class="col-md-5">
+              <video id="" autoplay loop muted src="img/happy.mp4" type="video/mp4" width="500" height="500" ></video>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Localização Disponível</h2><br>
+              <p style="text-align: justify;" class="lead">No Auster, selecionamos cuidadosamente apenas os restaurantes com excelente reputação e reconhecimento no mercado. Cada estabelecimento listado em nosso site é conhecido por sua qualidade, serviço e experiência gastronômica incomparável. Ao escolher um restaurante através do Auster, você pode ter certeza de que está optando por um local confiável e renomado, onde cada refeição é uma celebração.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+            <img src="home-img/transferir (3).png" alt=""> 
+            </div>
+          </div>
+      
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading fw-normal lh-1">Restaurantes em São Paulo</h2><br>
+              <p style="text-align: justify;" class="lead">No Auster, selecionamos cuidadosamente apenas os restaurantes com excelente reputação e reconhecimento no mercado. Cada estabelecimento listado em nosso site é conhecido por sua qualidade, serviço e experiência gastronômica incomparável. Ao escolher um restaurante através do Auster, você pode ter certeza de que está optando por um local confiável e renomado, onde cada refeição é uma celebração.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+            <img src="home-img/transferir (4).png" alt=""> 
+            </div>
+          </div>
+      
+       
+      
+
+       
+      
+        </div><br>
+
+        <hr class="featurette-divider1">
+
+  
+      
+
+        <div class="container">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Reservas</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Restaurantes Próximo</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sobre Restaurantes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Minhas Reservas</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meu Restaurante</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sobre Auter</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Negócio</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Junte-se a nós</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ajuda</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Planos e Preços</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Free Trial</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Politica de uso</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="/Politica/politica-privacidade.html" class="nav-link p-0 text-body-secondary">Politica de Privacidade</a></li>
+                  <li class="nav-item mb-2"><a href="/Politica/termos-uso.html" class="nav-link p-0 text-body-secondary">Termo de uso </a></li>
+                  <li class="nav-item mb-2"><a href="/Politica/reembolso.html" class="nav-link p-0 text-body-secondary">Politica Reembolso</a></li>
+                  <li class="nav-item mb-2"><a href="/Politica/reembolso.html" class="nav-link p-0 text-body-secondary">Cancelamento ou Troca</a></li>
+                  <li class="nav-item mb-2"><a href="/Politica/austerplus-politica.html" class="nav-link p-0 text-body-secondary">Auter Plus</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                  <h5>Inscreva-se no nosso email</h5>
+                  <p>Reservas diarias</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-primary" type="button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>&copy; 2024 Auster, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                </svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg></a></li>
+              </ul>
+            </div>
+
+        
+      <script src="home.js"></script>
+</body>
+</html>
